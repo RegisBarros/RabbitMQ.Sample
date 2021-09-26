@@ -1,0 +1,12 @@
+<Project Sdk="Microsoft.NET.Sdk.Worker">
+
+  <PropertyGroup>
+    <TargetFramework>net5.0</TargetFramework>
+    <UserSecretsId>dotnet-RabbitMQ.Sample.Consumer-42117B38-A5A3-47FE-BF83-0AC39F3C2FA8</UserSecretsId>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.Extensions.Hosting" Version="5.0.0" />
+    <PackageReference Include="RabbitMQ.Client" Version="6.2.2" />
+  </ItemGroup>
+</Project>
